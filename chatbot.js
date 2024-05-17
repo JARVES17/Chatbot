@@ -1,4 +1,11 @@
- let arr=[];
+ 
+const div = document.createElement("div") 
+div.innerHTML="hello"
+const body = document.body
+body.appendChild(div)
+console.log(body)
+
+let arr = [];
     const fetchData = async (url) => {
             const response = await fetch(url);
             const data = await response.json()
