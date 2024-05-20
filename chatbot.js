@@ -1,4 +1,26 @@
- 
+
+let chatBotSectionDiv = document.createElement("div");
+chatBotSectionDiv.className = "chatBot-section";
+
+chatBotSectionDiv.innerHTML = `
+    <div class="chatbot-container" id="chatContianer">
+        <div class="heading">
+            <h2>ChatBot</h2>
+            <div style="cursor: pointer;" id="close"><img src="download.png" alt="" width="20px"></div>
+        </div>
+
+        <div class="messages" id="msgBox">
+            <div class="align_response" id="response">
+            </div>
+        </div>
+    </div>
+    <div id="click" style="cursor: pointer;">
+        <img src="message.svg" alt="" id="chatImg" width="50px">
+    </div>
+`;
+
+// Append the new div to the body (or any other container element)
+document.body.appendChild(chatBotSectionDiv); 
 const div = document.createElement("div") 
 div.innerHTML="hello"
 const body = document.body
