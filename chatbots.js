@@ -6,7 +6,7 @@ chatBotSectionDiv.innerHTML = `
     <div class="chatbot-container" id="chatContianer">
         <div class="heading">
             <h2>ChatBot</h2>
-            <div style="cursor: pointer;" id="close"><img src="download.png" alt="" width="20px"></div>
+            <div style="cursor: pointer;" id="close"><img src="https://cdn.jsdelivr.net/gh/JARVES17/Chatbot@main/download.jpg" alt="" width="20px"></div>
         </div>
 
         <div class="messages" id="msgBox">
@@ -15,7 +15,7 @@ chatBotSectionDiv.innerHTML = `
         </div>
     </div>
     <div id="click" style="cursor: pointer;">
-        <img src="message.svg" alt="" id="chatImg" width="50px">
+        <img src="https://cdn.jsdelivr.net/gh/JARVES17/Chatbot@main/message.svg" alt="" id="chatImg" width="50px">
     </div>
 `;
 
